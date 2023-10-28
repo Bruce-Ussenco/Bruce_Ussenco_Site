@@ -1,15 +1,18 @@
+import NavBar from '/components/navBar.js';
+
 function Home() {
     return (
-        <><nav>
-            <ul>
-                <li><a href="#">Página inicial</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        
+        <>
+        <NavBar/>
+
         <div>
             <h1>Home</h1>
+            <p>text</p><p>text</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+            <style jsx>{`
+                h1 {
+                    color: red;
+                }
+            `}</style>
         </div></>
     )
 }
