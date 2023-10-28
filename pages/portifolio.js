@@ -5,7 +5,7 @@ function Home() {
 
           <h2>1.Campo Minado</h2>
 
-          <img src="\images\campo-minado.png" alt="Meu campo minado"></img>
+          <img src="\images\campo-minado.png" alt="Meu campo minado" />
 
           <p>Clique&nbsp;
             <a className="link"
